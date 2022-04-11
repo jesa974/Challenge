@@ -40,7 +40,7 @@ int main(void)
 		sort_by_len(length_array, max, "asc");
 
 		for (int i = 0; i < max; i++) {
-			printf("%s:%d -> %s:%d = %d\n", flow_array[length_array[i].index].src_ip, flow_array[length_array[i].index].src_port, flow_array[length_array[i].index].dst_ip, flow_array[length_array[i].index].dst_port, length_array[i].length);
+			printf("Flux : %s:%d,%s:%d / Taille : %d\n", flow_array[length_array[i].index].src_ip, flow_array[length_array[i].index].src_port, flow_array[length_array[i].index].dst_ip, flow_array[length_array[i].index].dst_port, length_array[i].length);
 		}
 	}
 	
